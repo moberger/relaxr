@@ -88,6 +88,7 @@ header {
   margin-top: -15px;
 }
 
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
@@ -197,4 +198,70 @@ footer {
 
 .copyright {
   margin-top: 20px;
+}
+
+/******************************************
+/* BLOG
+/*******************************************/
+
+.blog-body {
+  background: #f0efef;
+}
+
+.blog-header {
+  background-color: #121212;
+  height: 110px;
+}
+
+.blog-h1 {
+  float: left;
+}
+
+
+
+nav {
+  text-align: right;
+  padding-right: 40px;
+  max-height: 100%;
+  float: right;
+  padding-top: 30px;
+}
+
+nav li{
+  display: inline-block;
+  color: #f9e42e;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: right;
+  padding: 20px;
+}
+
+/*************************
+
+ARTICLE
+
+**************************/
+
+article {
+  float: left;
+  width: 75%;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.blog-image1 {
+  max-width: 100%;
+}
+
+/*************************
+
+SIDE BAR
+**************************/
+
+aside {
+  float: right;
+  width: 40%;
+  text-align: center;
+  padding: 0 20px;
 }
